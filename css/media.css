@@ -1,0 +1,729 @@
+@media ( max-width: 1200px) {
+  .container {
+    padding: 0 50px;
+  }
+
+  .header {
+    padding: 34px 0 26px 0;
+  }
+
+  .header__wrapper {
+    position: relative;
+    flex-wrap: wrap;
+  }
+
+  .loop {
+    position: absolute;
+    top: 9px;
+    right: 0;
+  }
+
+  .header__logo {
+    margin-bottom: 19px;
+  }
+
+  .hero {
+    padding: 101px 0 123px 0;
+  }
+
+  .hero__title {
+    margin-bottom: 21px;
+  }
+
+  .hero__descr {
+    max-width: 659px;
+    margin-bottom: 156px;
+  }
+
+  .about__descr {
+    max-width: 925px;
+  }
+
+  .gallery {
+    padding: 81px 0 77px 0;
+  }
+
+  .gallery__title {
+    margin-bottom: 14px;
+  }
+
+  .gallery__wrap {
+    flex-wrap: wrap;
+  }
+
+  .gallery__left {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+
+  .gallery__card {
+    max-width: 275px;
+  }
+
+  .catalog {
+    padding: 79px 0 38px 0;
+  }
+
+  .catalog__descr {
+    margin-bottom: 40px;
+}
+
+  .catalog__card-content {
+    flex-direction: column;
+  }
+
+  .catalog__artist-img {
+    margin-right: 0;
+    margin-bottom: 30px;
+    min-height: 578px;
+  }
+
+  .catalog__artist-img--2,
+  .catalog__artist-img--3 {
+    margin-bottom: 50px;
+  }
+
+  .catalog__artist-subtitle {
+    margin-bottom: 10px;
+  }
+
+  .catalog__artist-descr {
+    max-width: 920px;
+  }
+
+  .catalog__artist-text {
+    margin-bottom: 0;
+  }
+
+  .events {
+    padding: 40px 0 40px 0;
+  }
+
+  .events__list {
+    gap: 27px;
+  }
+
+  .events__article-text {
+    padding: 13px 17px 50px 32px;
+  }
+
+  .events__subtitle {
+    margin-bottom: 7px;
+  }
+
+  .events__date {
+    margin-right: 15px;
+    margin-bottom: 2px;
+    text-align: right;
+  }
+
+  .events__descr {
+    margin-bottom: 59px;
+  }
+
+  .projects {
+    padding: 23px 0 80px 0;
+  }
+
+  .projects__text {
+    margin-bottom: 19px;
+  }
+
+  .projects__partners-subtitle {
+    margin-bottom: 16px;
+  }
+
+  .projects__partners-list {
+    gap: 28px;
+  }
+
+  .contacts {
+    padding: 42px 0 40px 0;
+  }
+
+  .contacts__wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .adress {
+    margin-bottom: 28px;
+  }
+
+  .adress__subtitle {
+    margin-bottom: 11px;
+  }
+
+  .form {
+    margin-bottom: 26px;
+    flex-wrap: wrap;
+  }
+
+  .footer {
+    padding: 50px 0 26px 0;
+  }
+
+  .footer__link svg {
+    width: 60px;
+    height: 60px;
+  }
+
+}
+
+@media ( max-width: 992px) {
+  .header__list {
+    gap: 44px;
+  }
+
+  .loop {
+    top: 4px;
+    right: -18px;
+  }
+
+  .header__form {
+    right: -22px;
+    max-width: 350px;
+  }
+
+  .hero {
+    padding: 87px 0 106px 0;
+  }
+
+  .hero__descr {
+    max-width: 558px;
+  }
+
+  .about {
+    padding: 80px 0 71px 0;
+  }
+
+  .about__descr {
+    max-width: 666px;
+  }
+
+  .gallery {
+    padding: 81px 0 78px 0;
+  }
+
+  .gallery__card {
+    max-width: 200px;
+  }
+
+  .gallery__right {
+    gap: 34px;
+  }
+
+
+  .catalog__artist-img {
+    min-height: 181px;
+  }
+
+  .catalog__artist-date {
+    margin-bottom: 6px;
+  }
+
+  .catalog__artist-descr {
+    max-width: 668px;
+  }
+
+  .events__list {
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .events__item {
+    min-height: 528px;
+    max-width: 668px;
+  }
+
+  .events__subtitle {
+    max-width: 493px;
+    margin-bottom: 15px;
+  }
+
+  .events__descr {
+    max-width: 600px;
+    margin-bottom: 62px;
+  }
+
+  .projects {
+    padding: 40px 0 98px 0;
+  }
+
+  .projects__text {
+    margin-bottom: 25px;
+  }
+
+  .form {
+    gap: 13px;
+    margin-bottom: 23px;
+  }
+
+  .form input {
+    margin-right: 0;
+  }
+
+  .form__input-box {
+    width: 322px;
+  }
+
+  .form__input-box:nth-child(2) {
+    margin-right: 0;
+  }
+
+  .form__btn {
+    padding: 12px 10px;
+    width: 317px;
+  }
+
+  .contacts {
+    padding: 42px 0 38px 0;
+  }
+
+  .footer {
+    padding: 40px 0 27px 0;
+  }
+
+  .footer__wrapper {
+    align-items: center;
+  }
+
+}
+
+@media ( max-width: 719px) {
+  .header__nav {
+    position: absolute;
+    margin: 0;
+    left: -16px;
+    top: -20px;
+    width: 100vh;
+    min-width: 250px;
+    height: 100vh;
+    z-index: 2;
+    padding: 56px 15px 50px 15px;
+    background-color: #000;
+    opacity: .9;
+    overflow-y: auto;
+    visibility: hidden;
+    transform: translateX(-150%);
+    transition: visibility 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+
+  .header__nav .header__list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .header__nav .header__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .header__nav .header__link {
+    font-size: 18px;
+  }
+
+  .header__nav--active {
+    visibility: visible;
+    transform: none;
+  }
+
+  .burger--active
+  .burger__line--middle {
+      transform: scaleY(0);
+  }
+
+  .burger--active
+  .burger__line--top {
+      transform: rotate(45deg);
+      transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, left 0.3s ease-in-out;
+  }
+
+  .burger--active
+  .burger__line--bottom {
+      transform: rotate(-45deg);
+      transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, left 0.3s ease-in-out;
+  }
+
+  .burger {
+    padding: 0;
+    height: 20px;
+    width: 25px;
+    border: 0;
+    position: relative;
+    top: -3px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #FFFFFF;
+    z-index: 3;
+    background: transparent;
+  }
+
+  .burger__line {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: #FFFFFF;
+  }
+
+  .burger__line--top {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+  }
+  .burger__line--bottom {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+  .burger__line--middle {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .burger:active span {
+    background-color: var(--active-color);
+  }
+
+  .burger:focus-visible {
+    outline: 0;
+    background: var(--active-color);
+    color: var(--white-color);
+  }
+
+  .stop-scroll {
+    overflow: hidden;
+  }
+
+  .header__logo {
+    margin: 0 auto;
+  }
+
+  .loop {
+    top: 0;
+    right: 0;
+  }
+
+  .header__form {
+    right: 0;
+    max-width: 434px;
+    width: 100%;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .header {
+    padding: 20px 0 20px 0;
+  }
+
+  .hero {
+    padding: 44px 0 50px 0;
+  }
+
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__title {
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .hero__descr {
+    margin-bottom: 58px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+
+  .hero__btn {
+    width: 200px;
+    padding: 11px 9px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .gallery {
+    padding: 50px 0 48px 0;
+  }
+
+  .gallery__card {
+    max-width: 200px;
+  }
+
+  .section-title {
+    margin-bottom: 13px;
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .descr {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .about {
+    padding: 50px 0 41px 0;
+  }
+
+  .about__descr {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .gallery__right {
+    gap: 25px;
+  }
+
+  .catalog {
+    padding: 50px 0 38px 0;
+  }
+
+  .catalog__artist-img {
+    margin-bottom: 19px;
+  }
+
+  .catalog__descr {
+    margin-bottom: 29px;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .catalog__artist-date {
+    margin-bottom: 12px;
+  }
+
+  .catalog__card-content:nth-last-child(n+2) {
+    margin-bottom: 30px;
+  }
+
+  .events {
+    padding: 11px 0 40px 0;
+  }
+
+  .events__list {
+    gap: 18px;
+  }
+
+  .events__date {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+
+  .events__article-text {
+    padding: 16px 17px 54px 22px;
+  }
+
+  .events__subtitle {
+    margin-bottom: 3px;
+  }
+
+  .events__descr {
+    margin-bottom: 27px;
+  }
+
+  .projects {
+    padding: 10px 0 7px 0;
+    border-bottom: none;
+  }
+
+  .projects__partners-subtitle {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .projects__text {
+    margin-bottom: 20px;
+  }
+
+  .projects__partners-list {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .projects__partners-icon {
+    padding: 29px 65px 27px 65px;
+  }
+
+  .contacts {
+    padding: 42px 0 46px 0;
+  }
+
+  .adress {
+    margin-bottom: 19px;
+  }
+
+  .adress__subtitle {
+    margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .adress__main {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .form__input-box {
+    width: 290px;
+    height: 40px;
+  }
+
+  .form {
+    margin-bottom: 22px;
+    gap: 20px;
+  }
+
+  .form input {
+    padding: 2px 24px;
+  }
+
+  .form__btn {
+    width: 290px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+
+  .social__subtitle {
+    font-size: 17px;
+    line-height: 32px;
+  }
+
+  .contacts__social-link svg {
+    width: 49px;
+    height: 49px;
+  }
+
+  .footer {
+    padding: 20px 0 27px 0;
+  }
+
+  .footer__wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .footer__link svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer__social {
+    margin-bottom: 16px;
+  }
+
+}
+
+@media ( max-width: 480px) {
+
+  .header {
+    padding: 20px 0 40px 0;
+  }
+
+  .header__logo {
+    width: 33%;
+  }
+
+
+  .loop svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .descr {
+    max-width: 100%;
+  }
+
+  .gallery__right {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .gallery__card {
+    max-width: 290px;
+  }
+
+  .catalog__card-content {
+    width: 100%;
+  }
+
+  .catalog__artist-subtitle {
+    max-width: 285px;
+  }
+
+  .events {
+    padding: 11px 0 43px 0;
+  }
+
+  .events__article {
+    min-height: 683px;
+  }
+
+  .events__article-text {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 17px 49px 22px;
+  }
+
+  .events__subtitle {
+    margin-bottom: 5px;
+  }
+
+  .events__date {
+    margin-bottom: 10px;
+  }
+
+  .events__descr {
+    max-width: 234px;
+    margin-bottom: 58px;
+  }
+
+  .events__link {
+    align-self: flex-start;
+  }
+
+  .footer__logo {
+    width: 33%;
+  }
+}
+
+@media ( max-width: 360px) {
+  .header {
+    padding: 20px 0 33px 0;
+  }
+
+  .header__form {
+    right: 0;
+  }
+
+  .hero {
+    padding: 50px 0 52px 0;
+  }
+
+  .hero__descr {
+    margin-bottom: 40px;
+    max-width: 246px;
+  }
+
+  .about__title {
+    margin-bottom: 11px;
+  }
+
+  .gallery {
+    padding: 50px 0 49px 0;
+  }
+}
